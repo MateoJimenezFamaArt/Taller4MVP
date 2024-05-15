@@ -33,6 +33,9 @@ public class EjerciciosPropuestosRandom : MonoBehaviour
     //Next Button
     public GameObject ButtonForNext;
 
+    //Placeholder Response Text
+    public GameObject textFornext;
+
 
     public void NextAnswer()
     {
@@ -53,6 +56,7 @@ public class EjerciciosPropuestosRandom : MonoBehaviour
         // Implement your action here
         Panel.SetActive(false);
         timerText.text = "Se acabo el tiempo!!!";
+        textFornext.SetActive(true);
         ButtonForNext.GetComponent<Button>().interactable = true;
         Debug.Log("Estamos en timeup");
     }
@@ -110,6 +114,8 @@ public class EjerciciosPropuestosRandom : MonoBehaviour
 
         //Reset Value
         Next_Exercise = false;
+        textFornext.SetActive (false);
+       
     }
 
 }

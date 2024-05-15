@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/WorkScene.unity
     guid: 5e2d1bddab3b2544488b8a28197a8db6
   - enabled: 1
-    path: Assets/Scenes/Responder.unity
-    guid: d32131458256e6d449d9f6fd9861f693
-  - enabled: 1
     path: Assets/Scenes/Chat.unity
     guid: 48ab8969f6d19364595070c23ccc2454
+  - enabled: 1
+    path: Assets/Scenes/Responder.unity
+    guid: d32131458256e6d449d9f6fd9861f693
   m_configObjects: {}
