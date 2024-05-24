@@ -15,9 +15,16 @@ EditorBuildSettings:
     path: Assets/Scenes/WorkScene.unity
     guid: 5e2d1bddab3b2544488b8a28197a8db6
   - enabled: 1
+    path: Assets/Scenes/ChatPH.unity
+    guid: 970e04598c7eca048a7071158d018d32
+  - enabled: 1
     path: Assets/Scenes/Chat.unity
     guid: 48ab8969f6d19364595070c23ccc2454
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Responder.unity
     guid: d32131458256e6d449d9f6fd9861f693
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: c086560a4e18e05488de0e580b0255a4, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: e42151add65f59648beb662753bc4038, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: eda39cb21bd5c474fba8a6589c018406, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9d8663f477490a74e8f2b7184ba98586, type: 2}
